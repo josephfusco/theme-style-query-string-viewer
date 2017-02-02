@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	html {
+		background-color: #F6F6F6;
+	}
+	body {
+		font-size: 15px;
+		margin: 0;
+		padding: 10px;
+		width: 400px;
+		min-height: 50px;
+		color: #444;
+	}
+	h3 {
+		margin: 0 0 10px;
+	}
+	a {
+		color: #0073aa;
+		text-decoration: none;
+		border: none;
+		outline: 0;
+	}
+	a:hover, a:focus {
+		color: #00b4ff;
+	}
+	p {
+		margin: 0;
+	}
+	.logo {
+		width: 18px;
+		height: auto;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	table {
+		background-color: #fff;
+		width: 100%;
+		border: 1px solid #eee;
+	}
+	table tr th {
+		text-align: left;
+		font-weight: 500;
+		border-right: 1px solid #eee;
+	}
+	table tr th:last-child {
+		border-right: 0;
+	}
+	table tr td {
+		border-top: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+	table tr td:first-child {
+		font-weight: 500;
+	}
+	table tr td:last-child {
+		border-right: 0;
+	}
+	.theme {
+		margin-bottom: 10px;
+		border-top: 1px solid #eee;
+		padding-top: 10px;
+	}
+	.theme:last-child {
+		border-bottom: 1px solid #eee;
+		padding-bottom: 10px;
+	}
+	.pull-left {
+		float: left;
+	}
+	.pull-right {
+		float: right;
+	}
+	.colophon {
+		display: table;
+		width: 100%;
+		font-size: 65%;
+		line-height: 1.2;
+		color: #ccc;
+		text-align: right;
+		padding: 10px 0 0;
+	}
+	.colophon a {
+		color: #ccc;
+		font-weight: 500;
+	}
+	.colophon a:hover {
+		color: #777;
+	}
+</style>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+	<table cellspacing="0" cellpadding="5">
+		<thead>
+			<tr>
+				<th>Theme Directory</th>
+				<th>Query String</th>
+			</tr>
+		</thead>
+		<tbody id="results">
+			<!-- generated in popup.js -->
+		</tbody>
+	</table>
+	<div class="colophon">
+		<div class="pull-left">
+			<p id="info"><!-- generated in popup.js --></p>
+		</div>
+		<div class="pull-right">
+			<p>Created by <a href="https://josephfus.co" target="_blank">Joseph Fusco</a></p>
+		</div>
+	</div>
+</body>
+</html>
